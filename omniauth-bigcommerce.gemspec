@@ -29,9 +29,9 @@ Gem::Specification.new do |gem|
   gem.version       = OmniAuth::BigCommerce::VERSION
   gem.license       = 'MIT'
 
-  gem.add_dependency 'oauth2', '~> 1.4.0'
+  gem.add_dependency 'oauth2', '~> 1.4'
   gem.add_dependency 'omniauth'
-  gem.add_dependency 'omniauth-oauth2', '>= 1.5'
+  gem.add_dependency 'omniauth-oauth2', '~> 1.5'
   gem.add_development_dependency 'rake'
   gem.add_development_dependency 'rspec'
   gem.add_development_dependency 'simplecov'
